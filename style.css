@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: #3b339b;
+}
+
+h1 {
+    font-size: 10rem;
+    letter-spacing: 20px;
+    margin-top: 50px;
+}
+
+.clock {
+    background-color: #6454f3;
+    margin: 60px auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 35vw;
+    padding: 50px 0px;
+    border-radius: 6px;
+    box-shadow: 30px 30px 90px #17143f;
+}
+
+.clock div {
+    font-size: larger;
+    font-weight: 700;
+}
+
+.bold {
+    font-size: 38px;
+}
